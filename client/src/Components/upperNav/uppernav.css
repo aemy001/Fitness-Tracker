@@ -1,0 +1,10 @@
+.navbar-brand{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar-brand:hover{
+    color: rgb(172, 168, 168);
+  }

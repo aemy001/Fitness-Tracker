@@ -1,0 +1,176 @@
+ul.list-unstyled.pixels li {
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.pixels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.pixels ul {
+  padding: 0;
+  margin: 0;
+}
+
+.pixels ul li img {
+  height: 340px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 0px 20px 20px 20px;
+  transition: transform 0.5s ease;  
+}
+
+
+.pixels ul li i {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pixels ul li {
+  position: relative;
+}
+
+li.pixels-slider.active img {
+  width: 100%; 
+  transition: transform 1s ease;
+}
+
+.custom-btn a {
+  padding: 12px 30px;
+  background-color: #e85c53;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.about-st h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.about-st h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #e85c53;
+}
+
+.about-st p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-whimsical {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .pixels ul li img {
+    height: 280px;
+    width: 100%;
+  }
+
+  .about-st h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pixels {
+    flex-direction: column; 
+  }
+
+  .pixels ul li {
+    margin-bottom: 15px;
+  }
+
+  .pixels ul li img {
+    height: 240px;
+    width: 100%;
+  }
+
+  .about-st h3 {
+    font-size: 28px;
+  }
+
+  .about-st p {
+    font-size: 13px;
+  }
+
+  .custom-btn a {
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pixels ul li img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .about-st h3 {
+    font-size: 24px;
+  }
+
+  .custom-btn a {
+    padding: 8px 20px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pixels ul li img {
+    height: 180px;
+    width: 100%;
+  }
+
+  .about-st h3 {
+    font-size: 20px;
+  }
+
+  .custom-btn a {
+    padding: 6px 15px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pixels ul li img {
+    height: auto;
+    width: 100%;
+  }
+
+  .about-st h3 {
+    font-size: 18px;
+  }
+
+  .custom-btn a {
+    padding: 5px 10px;
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,137 @@
+.footer {
+    padding: 40px 20px;
+  }
+  
+  .footer2 {
+    background-color: #c73d33;
+    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    padding: 30px 20px;
+  }
+  
+  .footerlogo {
+    text-align: center;
+  }
+  
+  .footerlogo p {
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .footer1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+
+  .logotext{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+  }
+  .logotext:hover{
+    color: rgb(172, 168, 168);
+  }
+
+  .footer1 li {
+    list-style-type: none;
+  }
+  
+  .footer1 li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .hr1 {
+    margin: 20px 0px;
+    border: none;
+    border-top: 1px solid #fff;
+  }
+  
+  .footer3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+  }
+  
+  .footer3 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    flex: 1; /* Distribute space equally */
+  }
+  
+  .footer4 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .footer4 p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .footer2 {
+      padding: 20px;
+    }
+  
+    .footer1 {
+      flex-direction: column; /* Stack the links vertically */
+      align-items: center;
+    }
+  
+    .footer3 {
+      flex-direction: column; /* Stack the copyright and privacy sections */
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .footerlogo p {
+      width: 90%; /* Make the text take up more space on smaller screens */
+      font-size: 14px;
+    }
+  
+    .footer3 p {
+      font-size: 14px;
+    }
+  
+    .footer4 p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer1 {
+      gap: 10px; /* Reduce gap between links on smaller screens */
+    }
+  
+    .footer3 {
+      padding: 0px;
+      flex-direction: column;
+    }
+  
+    .footer3 p {
+      font-size: 18px;
+    }
+  
+    .footerlogo p {
+      font-size: 18px;
+    }
+  }
+  

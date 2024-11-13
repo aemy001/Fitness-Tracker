@@ -1,0 +1,12 @@
+# Ignore .env files
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+.tmp/
