@@ -11,7 +11,6 @@ A MERN stack app for managing workouts, nutrition, and progress. Features secure
 - **Notifications**: Reminders for workouts, meals, and progress milestones.
 - **Data Privacy & Security**: Secure authentication with data privacy compliance.
 - **Mobile Compatibility**: Fully responsive design for smartphones and tablets.
-- **Reports & Export**: Export progress data to PDF or CSV formats.
 
 ## Getting Started
 
