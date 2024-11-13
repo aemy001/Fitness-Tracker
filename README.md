@@ -19,7 +19,6 @@ A MERN stack app for managing workouts, nutrition, and progress. Features secure
    git clone https://github.com/aemy001/fitness-tracker.git
    cd fitness-tracker
 
-   Install dependencies:
 
 ## Install dependencies:
 npm install
