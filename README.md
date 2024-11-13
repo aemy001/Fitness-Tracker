@@ -25,6 +25,12 @@ A MERN stack app for managing workouts, nutrition, and progress. Features secure
 ## Install dependencies:
 npm install
 
+## Technologies Used
+- Frontend: React, HTML, CSS, Bootstrap
+- Backend: Node.js, Express
+- Database: MongoDB
+- Data Visualization: Charts and graphs for tracking progress
+
 
 This README includes a clear project description, setup instructions, environment variables, and technology stack information.
 
