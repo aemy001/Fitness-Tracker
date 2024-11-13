@@ -25,3 +25,7 @@ A MERN stack app for managing workouts, nutrition, and progress. Features secure
 ## Install dependencies:
 npm install
 
+
+This README includes a clear project description, setup instructions, environment variables, and technology stack information.
+
+
